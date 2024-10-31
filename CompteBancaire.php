@@ -43,7 +43,7 @@ class CompteBancaire {
        $this->_soldeInitial += $montant;
        echo "Le compte a été crédité de {$montant} {$this->_devise}.<br>";
    }
-   public function __toString() {
+   public function _toString() {
     return "$this->_libelle $this-> soldeInitial $this->_devise<br>";
    }
 
